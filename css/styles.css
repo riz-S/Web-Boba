@@ -229,7 +229,7 @@ html {
 }
 .drinks-menu-active .desc p {
   text-align: justify;
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-family: 'Open Sans',sans-serif;
   font-weight: 300;
 }
@@ -357,6 +357,9 @@ html {
   #override-navbar .navbar-brand img {
     width: 6rem;
   }
+ .drinks-menu-active .desc p {
+    font-size: 1rem;
+  } 
   .drinks-menu-active .desc-bg {
     width: 100%;
   }
