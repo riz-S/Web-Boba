@@ -41,14 +41,14 @@ html {
     width: 100%;
   }
 }
-#override-navbar .dropdown-menu{
+#override-navbar .dropdown-menu {
   background-color: #3d2167;
 }
-#override-navbar .dropdown-item img{
+#override-navbar .dropdown-item img {
   margin-right: 4%;
 }
-#override-navbar .dropdown-item{
-  font-family: 'Open Sans',sans-serif;
+#override-navbar .dropdown-item {
+  font-family: "Open Sans", sans-serif;
 }
 .carousel-indicators li {
   width: 1vw;
@@ -230,7 +230,7 @@ html {
 .drinks-menu-active .desc p {
   text-align: justify;
   font-size: 0.75rem;
-  font-family: 'Open Sans',sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
 #about h1,
@@ -341,10 +341,10 @@ html {
   margin-left: 5%;
 }
 @media screen and (min-width: 768px) {
-  #override-navbar .img-fluid{
+  #override-navbar .img-fluid {
     width: 15%;
   }
-  #override-navbar .dropdown-item img{
+  #override-navbar .dropdown-item img {
     width: 15%;
   }
   .carousel-item img {
@@ -357,9 +357,9 @@ html {
   #override-navbar .navbar-brand img {
     width: 6rem;
   }
- .drinks-menu-active .desc p {
+  .drinks-menu-active .desc p {
     font-size: 1rem;
-  } 
+  }
   .drinks-menu-active .desc-bg {
     width: 100%;
   }
