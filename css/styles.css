@@ -1,0 +1,353 @@
+html {
+  scroll-behavior: smooth;
+}
+#override-navbar {
+  background-color: #3d2167;
+  font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 0%;
+  padding-top: 0.2%;
+}
+#override-navbar a {
+  color: #c7e9b6;
+  margin-bottom: 2%;
+  font-size: 1.5vw;
+}
+#override-navbar .navbar-brand {
+  margin-bottom: 1%;
+}
+#override-navbar ul {
+  width: 75%;
+}
+#override-navbar li {
+  margin-right: 2%;
+}
+#override-navbar hr {
+  display: none;
+  margin-bottom: 0%;
+  margin-top: 2%;
+  height: 2%;
+  background-color: #c7e9b6;
+}
+#override-navbar a:hover + hr {
+  display: block;
+  animation-name: slide;
+  animation-duration: 500ms;
+}
+@keyframes slide {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+#override-navbar .dropdown-menu{
+  background-color: #3d2167;
+}
+#override-navbar .dropdown-item img{
+  margin-right: 4%;
+}
+#override-navbar .dropdown-item{
+  font-family: 'Open Sans',sans-serif;
+}
+.carousel-indicators li {
+  width: 1vw;
+  height: 1vw;
+  border-radius: 100%;
+  background-color: #3d2167;
+}
+@media screen and (min-width: 768px) {
+  .carousel-item img {
+    margin-right: 10% !important;
+    float: right;
+  }
+  .carousel-indicators {
+    margin-left: 50%;
+  }
+  #override-navbar .navbar-brand img {
+    width: 6rem;
+  }
+}
+#home-border {
+  width: 87%;
+}
+.home-sign {
+  top: 90%;
+  left: 23%;
+}
+#location h1,
+#location h2,
+#location h5,
+#location span {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  color: #c7e9b6;
+  text-align: center;
+}
+#location-first h1 {
+  font-weight: 100;
+  font-size: 6.5vw;
+  text-align: right;
+  position: absolute;
+  right: 3%;
+  top: 40%;
+}
+#location-first h1 + img {
+  position: absolute;
+  top: 64%;
+}
+#location-second {
+  background-color: #3d2167;
+  padding: 1%;
+}
+#location-second h1 {
+  font-size: 5.5vw;
+}
+#location-second h2 {
+  font-size: 4.5vw;
+  font-weight: 300;
+}
+#location-second li {
+  position: relative;
+  display: inline-block;
+}
+#location-second p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 90%;
+  text-align: justify;
+  color: #c7e9b6;
+}
+#location-second .card {
+  background-color: #261540;
+  border-radius: 2vw;
+  height: 100%;
+}
+#location-second .card img {
+  border-top-left-radius: 2vw;
+  border-top-right-radius: 2vw;
+}
+#location-second > .container {
+  margin-bottom: 2%;
+}
+#location-second .col-md {
+  padding-bottom: 4%;
+}
+#location-second .map div {
+  font-weight: 300;
+  display: inline;
+  padding: 1%;
+  border: 1px #c7e9b6;
+  border-style: solid;
+  border-radius: 5px;
+}
+#location-second .map div:hover {
+  background-color: #3d2167;
+}
+#location-second .map img {
+  margin-bottom: 2%;
+  margin-left: 1%;
+}
+
+#drinks {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  color: #c7e9b6;
+}
+#drinks-first {
+  position: relative;
+  background-color: #3d2167;
+}
+#drinks-first .img-fluid {
+  margin-left: 43%;
+  width: 55%;
+}
+#drinks-first-title h1 {
+  font-weight: 100;
+  font-size: 6.5vw;
+  position: absolute;
+  left: 2%;
+  top: 20%;
+}
+#drinks-first-title img {
+  width: 10%;
+  position: absolute;
+  left: 30%;
+  right: 60%;
+  top: 10.97%;
+  bottom: 65.3%;
+  transform: rotate(-15deg);
+}
+#drinks-second {
+  background-color: #c7e9b6;
+  position: relative;
+}
+#drinks-second .col-md,
+#drinks-second .col-md-4 {
+  margin-bottom: 3%;
+}
+.drinks-menu {
+  position: relative;
+  transition: 1s ease;
+}
+.drinks-menu h6 {
+  color: #3d2167;
+  font-size: 1.5rem;
+  visibility: visible;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+}
+.drinks-menu .drinks-tipe {
+  position: relative;
+  display: inline-block;
+  margin-top: 23%;
+  margin-left: 25%;
+}
+.signature {
+  font-family: "Lobster", cursive;
+}
+.drinks-menu .desc-bg,
+.drinks-menu .desc-bg p {
+  visibility: hidden;
+  position: absolute;
+  top: 1%;
+}
+.drinks-menu-active {
+  position: relative;
+  margin-top: 20%;
+  transition: all 1s ease;
+}
+.drinks-menu-active .drinks-tipe {
+  position: absolute;
+  left: 1%;
+  top: 1%;
+}
+.drinks-menu-active .desc-bg {
+  display: inline-block;
+  position: relative;
+  margin-left: 20%;
+  width: 100%;
+}
+.drinks-menu-active .desc {
+  position: absolute;
+  width: 70%;
+  top: 14%;
+  left: 17%;
+  text-align: center;
+}
+.drinks-menu-active .desc p {
+  text-align: justify;
+  font-size: 1rem;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 300;
+}
+#about h1,
+#about h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  color: #c7e9b6;
+}
+#about p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  color: #c7e9b6;
+}
+#about-first {
+  position: relative;
+}
+#about-first h1 {
+  font-weight: 100;
+  font-size: 6.5vw;
+  text-align: left;
+  position: absolute;
+  left: 3%;
+  top: 40%;
+}
+#about-first h1 + img {
+  position: absolute;
+  top: 64%;
+}
+#about-second {
+  background-color: #3d2167;
+  position: relative;
+}
+#about-second .img-fluid {
+  width: 30%;
+  background-blend-mode: lighten;
+}
+#about-second-teks {
+  display: inline-block;
+  width: 65%;
+  margin-left: 2%;
+}
+#about-second-teks h3 {
+  font-size: 6vw;
+}
+#about-second-teks p {
+  font-size: 1.5vw;
+  margin-top: 2%;
+  font-weight: 300;
+}
+#contact {
+  background-color: #c7e9b6;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  color: #3d2167;
+}
+#contact .col-md {
+  padding: 4%;
+  margin-bottom: 2%;
+}
+#contact h1 {
+  text-align: center;
+  font-size: 6vw;
+  font-weight: 400;
+}
+#contact-form .form-control {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1vw;
+  border-style: none;
+  background-color: #c7e9b6;
+}
+#contact-form .btn-primary {
+  font-family: "Open Sans", sans-serif;
+  background-color: #3d2167;
+  border: none;
+  border-radius: 1vw;
+  padding: 1% 6% 1%;
+}
+#contact-form .btn-primary:hover {
+  font-family: "Open Sans", sans-serif;
+  background-color: #261540;
+}
+#contact-form .form-group hr {
+  height: 10%;
+  background-color: black;
+}
+#contact-info div {
+  margin-bottom: 8%;
+}
+#contact-info h5 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+#contact-info p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+#contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+#contact-info .medsos {
+  width: 10%;
+  display: inline-block;
+}
+#contact-info .medsos + .medsos {
+  margin-left: 5%;
+}
